@@ -15,10 +15,8 @@
 <%
     for (int i = 1; i <= 9; i++) {
         for (int j = 1; j <= 9; j++) {
-%>
-<%=i%> X <%=j%> = <%=i * j%><br>
-
-<%
+            out.write(i + " * " + j + " = " + i*j);
+            out.write("<br>");
     }
 %><br><%
     }
